@@ -1,17 +1,9 @@
----
-name: General Pull Request Template
-about: Use this template for general pull requests
-title: "[Issue Title or ID]"
-labels: ""
-assignees: ""
-
----
-
 **Checklist**
 
-- [ ] Assigned this pull request to myself
-- [ ] Added appropriate labels (e.g., type:bug, type:enhancement, etc.)
-- [ ] Added or updated documentation as needed
-- [ ] Verified the changes locally or added relevant tests
-- [ ] Ensured code is linted and passes all CI checks
-- [ ] **Squashed commits** before merging
+- [ ] **Title**: Copied and pasted the **[#IssueID - IssueTitle]** format into the PR title
+- [ ] **Assignment**: Assigned this pull request to myself
+- [ ] **Labels**: Added appropriate labels (e.g., type:bug, type:enhancement, etc.)
+- [ ] **Documentation**: Added or updated documentation, if applicable
+- [ ] **Verification**: Verified the changes locally or added relevant automated tests
+- [ ] **Code Quality**: Ensured the code is linted and passes all CI checks
+- [ ] **Commits**: Squashed commits before merging
